@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/animate.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="./css/style.css" rel="stylesheet">
     </head>
     <body>
@@ -18,19 +20,19 @@
     <section>
         <div class="hero">
             <div class="hero-text">
-                <h1>Do business like the big boys</h1>
-                <p>Tired of papers? Degeit helps you create and issue digital receipts with ease and you what? there is more</p>
-                <a href="" class="play-google">
+                <h1 class="animated fadeInLeft">Do business like the big boys</h1>
+                <p class="animated fadeInLeft">Tired of papers? Degeit helps you create and issue digital receipts with ease and you what? there is more</p>
+                <a href="" class="play-google animated fadeInLeft">
                         <img src="./assets/images/google-play-badge-mobile.svg" alt="">
                 </a>
-                <div class="circle">
+                <div class="circle animated bounceInUp">
                     
                 </div>
-                <div class="triangle">
+                <div class="triangle animated bounceInDown">
                     
                 </div>
             </div>
-            <div class="hero-img">
+            <div class="hero-img animated fadeInRight">
                 <div class="hero-app-screen">
                     
                 </div>
@@ -39,10 +41,10 @@
     </section>
     <section>
         <div class="showcase">
-            <div class="showcase-text">
+            <div class="showcase-text" data-aos="fade-up">
                 <p>Just like Apple, you too can ditch paper receipts. With degeit we have made it easy for anyone to create a digital receipt with ease from their mobile phone at no cost. Can business get any easier?</p>
             </div>
-            <div class="showcase-img">
+            <div class="showcase-img" data-aos="flip-up">
                 <div class="showcase-app-screen">
                     
                 </div>
@@ -55,7 +57,7 @@
                 <h2>Benefits of using degeit</h2>
             </div>
             <div class="benefit-col-1">
-                <div class="benefit-box">
+                <div class="benefit-box" data-aos="fade-right">
                     <div class="icon" style="background: #DFF6F3;">
                         <img src="./assets/icons/paperless.svg" alt="">
                     </div>
@@ -64,7 +66,7 @@
                         <p>Say bye to the cost of printing receipts. Things just got better</p>
                     </div>
                 </div>
-                <div class="benefit-box">
+                <div class="benefit-box" data-aos="fade-right">
                     <div class="icon" style="background: #E1F5FF;">
                         <img src="./assets/icons/ease.svg" alt="">
                     </div>
@@ -74,7 +76,7 @@
                     </div>
                 </div>
                 
-                <div class="benefit-box">
+                <div class="benefit-box" data-aos="fade-right">
                     <div class="icon" style="background: #F1E3F0;">
                         <img src="./assets/icons/customize.svg" alt="">
                     </div>
@@ -86,7 +88,7 @@
             </div>
             <div class="benefit-col-2">
                 
-                <div class="benefit-box">
+                <div class="benefit-box" data-aos="fade-left">
                     <div class="icon" style="background: #F1E3F0;">
                         <img src="./assets/icons/track.svg" alt="">
                     </div>
@@ -95,7 +97,7 @@
                         <p>keep a track of your sales with out receipt history</p>
                     </div>
                 </div>
-                <div class="benefit-box">
+                <div class="benefit-box" data-aos="fade-left">
                     <div class="icon" style="background: #DFF6F3;">
                         <img src="./assets/icons/share.svg" alt="">
                     </div>
@@ -104,7 +106,7 @@
                         <p>Say bye to the cost of printing receipts. Things just got better</p>
                     </div>
                 </div>
-                <div class="benefit-box">
+                <div class="benefit-box" data-aos="fade-left">
                     <div class="icon" style="background: #E1F5FF;">
                         <img src="./assets/icons/extra.svg" alt="">
                     </div>
@@ -118,14 +120,14 @@
     </section>
     <section>
         <div class="download">
-            <div class="download-text">
+            <div class="download-text" data-aos="fade-up-right">
                 <h2>Care about your business? Download degeit</h2>
                 <p>Create - Tweak - Share. Life is good</p>
                 <a href="" class="play-google">
                     <img src="./assets/images/google-play-badge-mobile.svg" alt="">
                 </a>
             </div>
-            <div class="download-img">
+            <div class="download-img" data-aos="fade-up-left">
                 <div class="download-screen-img">
                    
                 </div>
@@ -135,7 +137,7 @@
     <footer>
         <div class="footer">
             <div class="footer-row-1">
-                <div class="contact">
+                <div class="contact" data-aos="fade-right">
                     <h3>Contact information</h3>
                     <a href="" class="mail">
                         <span class="contact-icon">
@@ -150,7 +152,7 @@
                         Telephone: +23409030889654  
                     </a>
                 </div>
-                <div class="social">
+                <div class="social" data-aos="fade-left">
                     <h3>Connect with us on social media</h3>
                     <div class="social-icons">
                         <div class="icon"><img src="./assets/icons/facebook.svg" alt=""></div>
@@ -164,5 +166,12 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init( {
+            offset: 200,
+            duration: 1000
+        });
+      </script>
     </body>
 </html>

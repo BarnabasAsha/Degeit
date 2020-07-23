@@ -95,6 +95,16 @@ img {
             background-position: center;
         }
 
+        .circle.animated {
+            animation-duration: 10s;
+           
+        }
+
+        .triangle.animated {
+            animation-duration: 12s;
+            
+        }
+
         .triangle {
             position: absolute;
             width: 45px;

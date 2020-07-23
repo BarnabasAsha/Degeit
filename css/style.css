@@ -115,6 +115,16 @@ img {
   background-position: center;
 }
 
+.hero .hero-text .circle.animated {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+.hero .hero-text .triangle.animated {
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+}
+
 .hero .hero-text .triangle {
   position: absolute;
   width: 45px;
