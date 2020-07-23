@@ -54,7 +54,7 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         margin-bottom: 4em;
 
          h1 {
@@ -81,7 +81,7 @@ img {
             margin-top: 1em;
             width: 180px;
             height: 55px;
-            
+            cursor: pointer;
         }
 
         .circle {
@@ -271,6 +271,7 @@ img {
             margin: 2em 0;
             width: 180px;
             height: 55px;
+            cursor: pointer;
         }
     }
 

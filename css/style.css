@@ -71,9 +71,9 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 4em;
 }
 
@@ -101,6 +101,7 @@ img {
   margin-top: 1em;
   width: 180px;
   height: 55px;
+  cursor: pointer;
 }
 
 .hero .hero-text .circle {
@@ -365,6 +366,7 @@ img {
   margin: 2em 0;
   width: 180px;
   height: 55px;
+  cursor: pointer;
 }
 
 .download .download-img {
