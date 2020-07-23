@@ -636,13 +636,13 @@ img {
     padding: 1em 5em;
   }
   .hero {
-    padding: 2em 10em;
+    padding: 2em 8em;
   }
   .hero .hero-text {
-    width: 400px;
+    width: 450px;
   }
   .hero .hero-text h1 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     line-height: 4.5rem;
   }
   .hero .hero-text p {
