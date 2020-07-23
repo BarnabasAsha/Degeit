@@ -116,13 +116,13 @@ img {
 }
 
 .hero .hero-text .circle.animated {
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
 }
 
 .hero .hero-text .triangle.animated {
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
 }
 
 .hero .hero-text .triangle {
