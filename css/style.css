@@ -3,7 +3,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 :root {
@@ -41,6 +40,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2em;
+  overflow-x: hidden;
 }
 
 .header .logo {
@@ -58,6 +58,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
+  overflow-x: hidden;
 }
 
 .hero .hero-text {
