@@ -27,6 +27,7 @@ img {
 }
 
 .header {
+  background: transparent;
   width: 100%;
   padding: 1em 2em;
   display: -webkit-box;
@@ -39,7 +40,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2em;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .header .logo {
@@ -57,7 +58,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .hero .hero-text {
@@ -223,7 +224,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .benefits .benefits-heading {
@@ -404,7 +405,7 @@ img {
       flex-wrap: wrap;
   padding: 1.5em 1.1em;
   background: #F2F8FF;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .footer .footer-row-1 {
