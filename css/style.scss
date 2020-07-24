@@ -27,7 +27,6 @@ img {
 
 // Header
 .header{
-    background: transparent;
     width: 100%;
     padding:1em 2em;
     display: flex;
@@ -67,7 +66,7 @@ img {
             text-align: center; 
             color: #0B57A7;  
             margin-top: 0.5em;
-            margin-bottom: 0.5em;  
+            margin-bottom: 0.3em;  
         }
 
          p {
@@ -94,7 +93,7 @@ img {
             position: absolute;
             width: 27px;
             height: 29px;
-            top: 2%;
+            top: 3.5%;
             right: 20%;
             background: url(../assets/images/circle-mobile.png);
             background-repeat: no-repeat;
@@ -120,6 +119,7 @@ img {
             background: url(../assets/images/triangle-mobile.png);
             background-repeat: no-repeat;
             background-position: center;
+            z-index: 20;
         }
     }
 
@@ -482,7 +482,7 @@ img {
 
             .circle {
                 right: 40%;
-                top: 0;
+                top: 6.5%;
             }
     
             .triangle {
@@ -571,7 +571,7 @@ img {
 
             h1 {
                 font-size: 3.2rem;
-                line-height: 4.5rem;
+                line-height: 3.5rem;
             }
 
             p {
@@ -583,7 +583,7 @@ img {
                 width: 55px;
                 height: 60px;
                 right: 52%;
-                top: 0;
+                top: 4.5%;
                 background: url(../assets/images/circle.png);
             }
     
