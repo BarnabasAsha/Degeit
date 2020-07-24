@@ -177,6 +177,7 @@ img {
     padding: 1.5em;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
     
 
     .benefits-heading {
@@ -308,6 +309,7 @@ img {
     flex-wrap: wrap;
     padding: 1.5em 1.1em;
     background: #F2F8FF;
+    overflow-x: hidden;
 
     .footer-row-1 {
         width: 100%;
