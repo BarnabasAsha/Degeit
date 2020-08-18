@@ -1,5 +1,4 @@
 ## Degeit
-A landing page for degeit
-Hngi7 stage 7 task 
+### hosted link: https://degeit.netlify.app
+A landing page for degeit digital reciept application
 
-## hosted link: https://degeit.netlify.app
