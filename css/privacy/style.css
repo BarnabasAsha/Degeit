@@ -157,7 +157,7 @@ main .wrapper .content p, main .wrapper .content ol {
 }
 
 main .wrapper .content ol li {
-  margin-left: 1em;
+  margin-left: 1.5em;
 }
 
 @media screen and (max-width: 1300px) {
