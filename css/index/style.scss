@@ -26,21 +26,6 @@ img {
 }
 
 // Header
-.header{
-    width: 100%;
-    padding:1em 2em;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 2em;
-    overflow: hidden;
-
-    .logo {
-        width: 88px;
-        height: 27px;
-    }
-}
-
 .hero {
     padding: 2em 2.2em;
     width: 100%;
@@ -95,7 +80,7 @@ img {
             height: 29px;
             top: 3.5%;
             right: 20%;
-            background: url(../assets/images/circle-mobile.png);
+            background: url(../../assets/images/circle-mobile.png);
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -116,7 +101,7 @@ img {
             height: 32px;
             right: 10%;
             top: 41%;            
-            background: url(../assets/images/triangle-mobile.png);
+            background: url(../../assets/images/triangle-mobile.png);
             background-repeat: no-repeat;
             background-position: center;
             z-index: 20;
@@ -132,7 +117,7 @@ img {
         .hero-app-screen {
             width: 273px;
             height: 425px;
-            background: url(../assets/images/app-screen-mobile.png);
+            background: url(../../assets/images/app-screen-mobile.png);
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -167,7 +152,7 @@ img {
         .showcase-app-screen {
             width: 424px; 
             height: 250.48px;
-            background: url(../assets/images/showcase-app-screen-mobile.png);
+            background: url(../../assets/images/showcase-app-screen-mobile.png);
             background-repeat: no-repeat;
             background-position: center; 
         }
@@ -304,100 +289,9 @@ img {
         .download-screen-img {
             width: 312px;
             height: 268px; 
-            background: url(../assets/images/download-screen-img-mobile.png); 
+            background: url(../../assets/images/download-screen-img-mobile.png); 
             background-position: center;
             background-repeat: no-repeat;          
-        }
-    }
-}
-
-.footer {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1.5em 1.1em;
-    background: #F2F8FF;
-    overflow: hidden;
-
-    .footer-row-1 {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        
-        .contact {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 1em;
-
-            h3 {
-                font-style: normal;
-                font-weight: 600;
-                font-size: 1.2rem;
-                line-height: 1.8rem; 
-                margin-bottom: 1em;               
-            }
-
-            a {
-                font-style: normal;
-                font-weight: normal;
-                font-size: 1rem;
-                line-height: 1.5rem;  
-                display: flex;
-                align-items: center;
-                margin-bottom: 1em;
-
-                .contact-icon {
-                    width: 20px;
-                    height: 20px;
-                    margin-right: 0.5em;  
-                    display: inline-block;                  
-                }
-            }
-        }
-
-        .social {
-            h3 {
-                font-style: normal;
-                font-weight: 600;
-                font-size: 1.2rem;
-                line-height: 1.8rem;                
-            }
-
-            .social-icons {
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                margin-top: 1em;
-
-                .icon {
-                    width: 33.69px;
-                    height: 33.69px;   
-                    margin-right: 2em;                 
-                }
-            }
-        }
-    }
-
-    .footer-row-2 {
-        width: 100%;
-        margin-top: 2em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        p {
-            display: flex;
-            align-items: center;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 1rem;
-            line-height: 1.5rem;
-            .copyright {
-                width: 20px;
-                height: 20px;
-                margin-right: 0.5em;
-            }
         }
     }
 }
@@ -448,22 +342,9 @@ img {
     .download {
         padding: 2.5em 3.5em 0 3.5em;
     }
-
-    .footer {
-        padding: 2em 3em;
-    }
 }
 
 @media screen and (min-width: 651px) {
-
-    .header {
-        padding: 1em 3em;
-
-        .logo {
-            width: 150px;
-            height: 46px;
-        }
-    }
 
     .hero {
         justify-content: space-between;
@@ -534,20 +415,6 @@ img {
             order: -1;
         }
     }
-
-    .footer {
-        padding: 1.5em 2.5em;        
-        .footer-row-1 {
-            .contact {
-                width: 35%;
-                margin-right: 200px;
-            }
-
-            .social {
-                width: 35%;
-            }
-        }
-    }
 }
 
 @media screen and (min-width: 900px) {
@@ -584,7 +451,7 @@ img {
                 height: 60px;
                 right: 52%;
                 top: 4.5%;
-                background: url(../assets/images/circle.png);
+                background: url(../../assets/images/circle.png);
             }
     
             .triangle {
@@ -592,7 +459,7 @@ img {
                 height: 60px;
                 right: 65%;
                 top: 57%;
-                background: url(../assets/images/triangle.png);
+                background: url(../../assets/images/triangle.png);
 
             }
 
@@ -607,7 +474,7 @@ img {
             .hero-app-screen {
                 width: 386px;
                 height: 623px;
-                background: url(../assets/images/app-screen-desktop.png);
+                background: url(../../assets/images/app-screen-desktop.png);
             }
         }
     }
@@ -625,7 +492,7 @@ img {
             .showcase-app-screen {
                 width: 825.19px;
                 height: 472.55px;
-                background: url(../assets/images/showcase-app-screen-desktop.png);               
+                background: url(../../assets/images/showcase-app-screen-desktop.png);               
             }
         }
     }
@@ -684,59 +551,9 @@ img {
         
         .download-img {
             .download-screen-img {
-                background: url(../assets/images/download-screen-img-desktop.png);
+                background: url(../../assets/images/download-screen-img-desktop.png);
                 width: 574px;
                 height: 494px;
-            }
-        }
-    }
-
-    .footer {
-        padding: 2em 8em; 
-        justify-content: center;
-        align-items: center;
-        
-        .footer-row-1 {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin: 0 auto;
-            width: 1100px;
-            .contact {
-                
-                h3 {
-                    font-size: 1.3rem;
-                    line-height: 1.9rem;
-                    text-align: left;
-                }
-
-                a {
-                    font-size: 1.1rem;
-                    line-height: 1.7rem;
-                }
-            }
-
-            .social {
-                
-                h3 {
-                    font-size: 1.3rem;
-                    line-height: 1.9rem;
-                }  
-
-                .social-icons {
-                    .icon {
-                        width: 40px;
-                        height: 40px;
-                        margin-right: 3em;
-                    }
-                }
-            }
-        }
-
-        .footer-row-2 {
-            p {
-                font-size: 1.12rem;
-                line-height: 1.8rem;
             }
         }
     }
