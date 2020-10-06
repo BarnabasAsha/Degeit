@@ -22,7 +22,11 @@ a {
 }
 
 img {
-    min-width: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: 120px !important;
 }
 
 // Header
@@ -32,6 +36,7 @@ img {
     background: #fff;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     position: relative;
     overflow: hidden;
 
