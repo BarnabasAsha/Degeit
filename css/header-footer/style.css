@@ -137,6 +137,7 @@
 }
 
 .footer .footer-row-2 .social-icons .icon {
+  display: inline-block;
   width: 28px;
   height: 28px;
   margin-right: 1.5em;
